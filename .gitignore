@@ -11,15 +11,9 @@
 /tmp/
 
 # Used by dotenv library to load environment variables.
-# .env
+.env
 
-## Specific to RubyMotion:
-.dat*
-.repl_history
-build/
-*.bridgesupport
-build-iPhoneOS/
-build-iPhoneSimulator/
+
 
 ## Specific to RubyMotion (use of CocoaPods):
 #
