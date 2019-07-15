@@ -1,4 +1,9 @@
-Telegram::Bot::Client.run(ENV['BOT_API_TOKEN']) do |bot|
+require 'telegram/bot'
+require 'dotenv/load'
+
+token =  ENV['BOT_API_TOKEN']
+
+Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
     case message.text
     when '/start'
